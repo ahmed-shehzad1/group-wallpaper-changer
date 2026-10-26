@@ -4,7 +4,7 @@ $ErrorActionPreference = 'Stop'
 
 # Change this URL if your GitHub username, repository, branch, or image path differs.
 $WallpaperUrl = 'https://raw.githubusercontent.com/ahmed-shehzad1/group-wallpaper-changer/main/wallpaper.jpg'
-$CheckIntervalSeconds = 300
+$CheckIntervalSeconds = 10
 $AppFolder = Join-Path $env:LOCALAPPDATA 'GroupWallpaperUpdater'
 $WallpaperPath = Join-Path $AppFolder 'wallpaper.jpg'
 $TempPath = Join-Path $AppFolder 'wallpaper.download'
